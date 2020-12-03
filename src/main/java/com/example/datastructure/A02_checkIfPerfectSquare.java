@@ -26,9 +26,9 @@ public class A02_checkIfPerfectSquare {
 	 * 
 	 * 
 	 * 
-	 * ------------------------
-	 * ---O(n) TIME SOLUTION---
-	 * ------------------------
+	 * ---------------------------
+	 * ---O(Logn) TIME SOLUTION---
+	 * ---------------------------
 	 * The previous logic of 'X/i == i' cannot be done here because in integer division we lose the fraction part.
 	 *   when X=4, i=2 ---- (X/i == i) becomes TRUE
 	 *   when X=5, i=2 ---- (X/i == i) becomes TRUE

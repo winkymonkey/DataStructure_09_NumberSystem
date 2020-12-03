@@ -54,9 +54,9 @@ public class A01_findSquareRoot {
 	 * 
 	 * 
 	 * 
-	 * ------------------------
-	 * ---O(n) TIME SOLUTION---
-	 * ------------------------
+	 * ---------------------------
+	 * ---O(Logn) TIME SOLUTION---
+	 * ---------------------------
 	 * We can use the property -- 'natural numbers are already sorted'
 	 * So instead of traversing continuously from 'i=0' to 'i=X/2', we can apply binary search in the range [0,X/2]
 	 * 
